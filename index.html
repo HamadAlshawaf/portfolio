@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Hamad Alshawaf's software development and cybersecurity portfolio."
+    >
+
+    <title>Hamad Alshawaf | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Decorative moving binary background -->
+    <div class="binary-background" aria-hidden="true">
+
+        <div
+            class="binary-side binary-side-left"
+            id="binary-left"
+        ></div>
+
+        <div
+            class="binary-side binary-side-right"
+            id="binary-right"
+        ></div>
+
+    </div>
+
+
+    <header class="top-navbar">
+        <div class="nav-container">
+
+            <a
+                href="#"
+                class="logo-text"
+                aria-label="Return to the top of the page"
+            >
+                Hamad Alshawaf
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <span class="nav-location">
+                    📍 <strong>California, USA</strong>
+                </span>
+
+                <button
+                    id="theme-toggle"
+                    class="theme-btn"
+                    type="button"
+                    aria-label="Toggle light and dark mode"
+                >
+                    ☀️
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="main-content">
+
+        <!-- Hero Section -->
+        <header class="hero-section scroll-reveal">
+
+            <div class="card hero-card">
+
+                <div class="hero-content">
+
+                    <p class="hero-title-sub">
+                        Cybersecurity • Software Development
+                    </p>
+
+                    <h1 class="hero-title-main">
+                        I'm Hamad Alshawaf
+                    </h1>
+
+                    <!--
+                        The picture is placed before the biography so the text
+                        can wrap around it on desktop.
+                    -->
+                    <div class="hero-image">
+
+                        <img
+                            src="images/me.jpeg"
+                            alt="Portrait of Hamad Alshawaf"
+                        >
+
+                    </div>
+
+                    <p class="hero-bio">
+                        I love building things. Whether it's a backend API, a
+                        cybersecurity tool, or a side project that started as a
+                        random idea, I enjoy turning curiosity into software.
+                        I'm always learning, building, and looking for new ways
+                        to solve interesting problems.
+                    </p>
+
+                    <p class="hero-bio">
+                        When I'm not coding, you'll usually find me networking
+                        with professionals, playing chess, horseback riding, or
+                        exploring new technologies that inspire my next project.
+                    </p>
+
+                    <p class="hero-bio placement-note">
+                        🚀 Currently exploring full time opportunities in
+                        Software Engineering and Cybersecurity.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#experience" class="btn-primary">
+                            View my work
+                        </a>
+
+                        <a
+                            href="files/Alshawaf, Hamad Resume.pdf"
+                            class="btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Resume
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- About and Education -->
+        <section id="about" class="content-section scroll-reveal">
+
+            <h2 class="section-title">
+                About &amp; Education
+            </h2>
+
+            <div class="about-grid">
+
+                <div class="card edu-card">
+
+                    <div class="block-header">
+
+                        <h3>
+                            Indiana University
+                        </h3>
+
+                        <span class="block-date">
+                            Graduation: May 2026
+                        </span>
+
+                    </div>
+
+                    <p class="block-subtitle">
+                        B.S. in Cybersecurity &amp; Global Policy
+                    </p>
+
+                    <p class="block-subtitle">
+                        B.A. in Criminal Justice
+                    </p>
+
+                    <p class="block-meta">
+                        Bloomington, IN
+                    </p>
+
+                    <ul class="block-list">
+
+                        <li>
+                            <strong>Executive Dean's List:</strong>
+                            Academic honors achieved consistently across four
+                            semesters.
+                        </li>
+
+                        <li>
+                            <strong>Excellence Scholarship (KSA):</strong>
+                            Full-ride academic scholarship awarded directly by
+                            the Ministry of Education.
+                        </li>
+
+                        <li>
+                            <strong>Global Engagement Scholarship (IU):</strong>
+                            Awarded a merit-based scholarship recognizing
+                            outstanding academic achievement as an incoming
+                            student at Indiana University Bloomington.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="card skills-card">
+
+                    <div class="skills-group">
+
+                        <h3 class="skills-title">
+                            Languages
+                        </h3>
+
+                        <div class="tag-cloud">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>C</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skills-group">
+
+                        <h3 class="skills-title">
+                            Backend
+                        </h3>
+
+                        <div class="tag-cloud">
+                            <span>FastAPI</span>
+                            <span>REST APIs</span>
+                            <span>JSON</span>
+                            <span>Pydantic</span>
+                            <span>OpenAPI</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skills-group">
+
+                        <h3 class="skills-title">
+                            Cybersecurity
+                        </h3>
+
+                        <div class="tag-cloud">
+                            <span>Linux</span>
+                            <span>Active Directory</span>
+                            <span>NIST 800-171</span>
+                            <span>CMMC Level 2</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skills-group">
+
+                        <h3 class="skills-title">
+                            Developer Tools
+                        </h3>
+
+                        <div class="tag-cloud">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>Postman</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Experience -->
+        <section id="experience" class="content-section scroll-reveal">
+
+            <h2 class="section-title">
+                My Journey
+            </h2>
+
+
+            <article class="card exp-card">
+
+                <div class="block-header">
+
+                    <h3>
+                        Software Development Intern
+                    </h3>
+
+                    <span class="block-date">
+                        June 2026 – Present
+                    </span>
+
+                </div>
+
+                <p class="block-subtitle text-accent">
+                    Glenair, Inc
+                </p>
+
+                <ul class="block-list">
+
+                    <li>
+                        Develop backend REST APIs using Python and FastAPI while
+                        implementing scalable CRUD functionality and structured
+                        data models.
+                    </li>
+
+                    <li>
+                        Design application features using Pydantic validation,
+                        centralized exception handling, structured logging, and
+                        clean software architecture.
+                    </li>
+
+                    <li>
+                        Collaborate with engineering teams to build maintainable
+                        internal tools while following secure software
+                        development practices.
+                    </li>
+
+                    <li>
+                        Support enterprise cybersecurity initiatives by
+                        contributing to NIST 800-171 and CMMC Level 2 compliance
+                        efforts across multiple departments.
+                    </li>
+
+                </ul>
+
+                <div class="tag-cloud-mini">
+                    <span>Backend Development</span>
+                    <span>Software Architecture</span>
+                    <span>Cybersecurity Compliance</span>
+                    <span>Enterprise Systems</span>
+                </div>
+
+            </article>
+
+
+            <article class="card exp-card">
+
+                <div class="block-header">
+
+                    <h3>
+                        Legal Intern
+                    </h3>
+
+                    <span class="block-date">
+                        May 2025 – July 2025
+                    </span>
+
+                </div>
+
+                <p class="block-subtitle text-accent">
+                    Public Defender's Office
+                </p>
+
+                <ul class="block-list">
+
+                    <li>
+                        Conducted legal research and analyzed case law to support
+                        attorneys in criminal defense strategy and motion
+                        preparation.
+                    </li>
+
+                    <li>
+                        Reviewed court transcripts, evidence, and legal
+                        documentation to produce concise analytical summaries
+                        for ongoing cases.
+                    </li>
+
+                    <li>
+                        Assisted attorneys with case preparation by organizing
+                        complex information into structured, actionable reports.
+                    </li>
+
+                </ul>
+
+                <div class="tag-cloud-mini">
+                    <span>Legal Research</span>
+                    <span>Case Analysis</span>
+                    <span>Documentation</span>
+                    <span>Problem Solving</span>
+                    <span>Litigation Support</span>
+                </div>
+
+            </article>
+
+
+            <article class="card exp-card">
+
+                <div class="block-header">
+
+                    <h3>
+                        Intern
+                    </h3>
+
+                    <span class="block-date">
+                        May 2024 – July 2024
+                    </span>
+
+                </div>
+
+                <p class="block-subtitle text-accent">
+                    New Leaf, New Life
+                </p>
+
+                <ul class="block-list">
+
+                    <li>
+                        Improved website functionality and user experience
+                        through frontend enhancements and workflow improvements.
+                    </li>
+
+                    <li>
+                        Collaborated with case managers to organize reentry
+                        resources and build customized transition plans for
+                        clients.
+                    </li>
+
+                    <li>
+                        Assisted with technology and administrative projects that
+                        improved workflow efficiency across the organization.
+                    </li>
+
+                </ul>
+
+                <div class="tag-cloud-mini">
+                    <span>Web Development</span>
+                    <span>UI Improvements</span>
+                    <span>Community Impact</span>
+                    <span>Problem Solving</span>
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="content-section scroll-reveal">
+
+            <h2 class="section-title">
+                Built With Curiosity
+            </h2>
+
+            <div class="project-grid">
+
+                <article class="card project-card">
+
+                    <img
+                        class="project-image"
+                        src="images/stocks.png"
+                        alt="Stock trend predictor project"
+                    >
+
+                    <div class="project-details">
+
+                        <div class="project-header-row">
+
+                            <h3>
+                                Stock Trend Predictor
+                            </h3>
+
+                            <span
+                                class="project-star"
+                                aria-hidden="true"
+                            >
+                                ★
+                            </span>
+
+                        </div>
+
+                        <p class="project-desc">
+                            Developed a machine learning based stock trend
+                            prediction system that analyzes historical market
+                            data to forecast short term price movement. The
+                            project combines automated data processing,
+                            technical indicators, model training, and
+                            performance evaluation while exposing predictions
+                            through a FastAPI backend.
+                        </p>
+
+                        <div class="tag-cloud-mini">
+                            <span>Machine Learning</span>
+                            <span>FastAPI</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                            <span>Algorithms</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="card project-card">
+
+                    <img
+                        class="project-image"
+                        src="images/language.png"
+                        alt="Language learning web application"
+                    >
+
+                    <div class="project-details">
+
+                        <div class="project-header-row">
+
+                            <h3>
+                                Language Learning Application
+                            </h3>
+
+                            <span
+                                class="project-star"
+                                aria-hidden="true"
+                            >
+                                ★
+                            </span>
+
+                        </div>
+
+                        <p class="project-desc">
+                            Developed a full-stack web application that helps
+                            users create, organize, and review vocabulary across
+                            multiple languages. Built with FastAPI and a
+                            responsive HTML, CSS, and JavaScript frontend, the
+                            application provides CRUD functionality, daily word
+                            review, randomized practice sessions, and a clean
+                            REST API architecture.
+                        </p>
+
+                        <div class="tag-cloud-mini">
+                            <span>Full-Stack Development</span>
+                            <span>Client-Server Architecture</span>
+                            <span>DOM Manipulation</span>
+                            <span>Form Validation</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="content-section scroll-reveal">
+
+            <h2 class="section-title">
+                Hobbies &amp; Interests
+            </h2>
+
+            <div class="hobby-grid">
+
+                <article class="card hobby-card">
+
+                    <img
+                        class="hobby-image"
+                        src="images/horse.jpeg"
+                        alt="Horseback riding"
+                    >
+
+                    <div class="hobby-details">
+
+                        <h3>
+                            Horseback Riding
+                        </h3>
+
+                        <p>
+                            One of my favorite ways to spend time outdoors.
+                            Riding has taught me patience and confidence, and
+                            it's something I always enjoy making time for.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="card hobby-card">
+
+                    <img
+                        class="hobby-image"
+                        src="images/chess.jpeg"
+                        alt="Chess board"
+                    >
+
+                    <div class="hobby-details">
+
+                        <h3>
+                            Chess
+                        </h3>
+
+                        <p>
+                            I love the strategy behind chess and how every game
+                            is different. It's one of my favorite ways to
+                            challenge myself and unwind after a long day,
+                            especially over a cup of tea.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="card hobby-card">
+
+                    <img
+                        class="hobby-image"
+                        src="images/fish.jpeg"
+                        alt="Fishing outdoors"
+                    >
+
+                    <div class="hobby-details">
+
+                        <h3>
+                            Fishing &amp; Hunting
+                        </h3>
+
+                        <p>
+                            There's something peaceful about being outdoors with
+                            no distractions. Whether I'm fishing or hunting, I
+                            enjoy slowing down and appreciating nature.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="card hobby-card">
+
+                    <img
+                        class="hobby-image"
+                        src="images/swagger.png"
+                        alt="Software API documentation"
+                    >
+
+                    <div class="hobby-details">
+
+                        <h3>
+                            Vibe Coding
+                        </h3>
+
+                        <p>
+                            Some of my favorite projects started as “what if”
+                            ideas. I enjoy experimenting with new technologies,
+                            AI tools, and building prototypes just to see where
+                            they can go.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Contact -->
+    <footer id="contact" class="footer-section scroll-reveal">
+
+        <div class="footer-container">
+
+            <h2 class="section-title">
+                Let's Connect
+            </h2>
+
+            <p class="footer-text">
+                Thanks for visiting my portfolio. If you'd like to connect,
+                collaborate, or discuss software development, cybersecurity, or
+                future opportunities, feel free to reach out.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="mailto:hamad.impo@gmail.com">
+                    Email
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/hamad-ali-alshawaf/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 Hamad Alshawaf.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
